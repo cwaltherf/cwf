@@ -1,0 +1,21 @@
+<joblist>
+  <job>
+    <description>echo prueba_scm</description>
+    <executionEnabled>true</executionEnabled>
+    <id>bbf78fee-2f1d-4bdb-a0c0-fc9281cde4e0</id>
+    <loglevel>INFO</loglevel>
+    <name>scm_prueba</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo prueba_scm</exec>
+      </command>
+      <command>
+        <description>2do paso para modificar job</description>
+        <exec>df -h</exec>
+      </command>
+    </sequence>
+    <uuid>bbf78fee-2f1d-4bdb-a0c0-fc9281cde4e0</uuid>
+  </job>
+</joblist>

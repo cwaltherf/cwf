@@ -1,0 +1,18 @@
+<joblist>
+  <job>
+    <description>job3 for github repo</description>
+    <executionEnabled>true</executionEnabled>
+    <group>job 3 for github repo</group>
+    <id>ea8bf2b3-9b7a-46d5-96ae-5a0337d7cb15</id>
+    <loglevel>INFO</loglevel>
+    <name>job_3</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo job3</exec>
+      </command>
+    </sequence>
+    <uuid>ea8bf2b3-9b7a-46d5-96ae-5a0337d7cb15</uuid>
+  </job>
+</joblist>
