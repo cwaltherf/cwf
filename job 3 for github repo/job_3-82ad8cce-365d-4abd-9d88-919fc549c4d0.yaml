@@ -1,0 +1,15 @@
+- description: job3 for github repo
+  executionEnabled: true
+  group: job 3 for github repo
+  id: 82ad8cce-365d-4abd-9d88-919fc549c4d0
+  loglevel: INFO
+  name: job_3
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo job3
+    keepgoing: false
+    strategy: node-first
+  uuid: 82ad8cce-365d-4abd-9d88-919fc549c4d0
+

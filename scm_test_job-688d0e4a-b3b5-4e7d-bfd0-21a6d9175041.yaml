@@ -1,0 +1,15 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  id: 688d0e4a-b3b5-4e7d-bfd0-21a6d9175041
+  loglevel: INFO
+  name: scm_test_job
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: ls -lt
+    keepgoing: false
+    strategy: node-first
+  uuid: 688d0e4a-b3b5-4e7d-bfd0-21a6d9175041
+

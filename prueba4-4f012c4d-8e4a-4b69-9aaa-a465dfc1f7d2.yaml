@@ -1,0 +1,14 @@
+- description: ''
+  executionEnabled: true
+  id: 4f012c4d-8e4a-4b69-9aaa-a465dfc1f7d2
+  loglevel: INFO
+  name: prueba4
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo prueba
+    keepgoing: false
+    strategy: node-first
+  uuid: 4f012c4d-8e4a-4b69-9aaa-a465dfc1f7d2
+

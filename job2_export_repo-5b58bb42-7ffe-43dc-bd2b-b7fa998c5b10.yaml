@@ -1,0 +1,14 @@
+- description: job para exportar a github repo
+  executionEnabled: true
+  id: 5b58bb42-7ffe-43dc-bd2b-b7fa998c5b10
+  loglevel: INFO
+  name: job2_export_repo
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: whoami
+    keepgoing: false
+    strategy: node-first
+  uuid: 5b58bb42-7ffe-43dc-bd2b-b7fa998c5b10
+
