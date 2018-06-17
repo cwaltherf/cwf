@@ -1,0 +1,15 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  id: 16bd5b70-e342-4eec-99c6-ae200e6010f6
+  loglevel: INFO
+  name: test
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: ls -lt
+    keepgoing: false
+    strategy: node-first
+  uuid: 16bd5b70-e342-4eec-99c6-ae200e6010f6
+
