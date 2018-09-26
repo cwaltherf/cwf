@@ -1,0 +1,10 @@
+- defaultTab: summary
+  description: ''
+  executionEnabled: true
+  loglevel: INFO
+  name: job1
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    command: null
+
