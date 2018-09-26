@@ -1,6 +1,6 @@
 <joblist>
   <job>
-    <description>job para exportar a github repo</description>
+    <description>job para exportar a github repo test</description>
     <executionEnabled>true</executionEnabled>
     <id>a332b128-b7c1-4436-b7e5-b1f6f38c439f</id>
     <loglevel>INFO</loglevel>
