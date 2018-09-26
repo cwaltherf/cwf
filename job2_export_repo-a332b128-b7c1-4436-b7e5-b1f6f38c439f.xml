@@ -1,0 +1,17 @@
+<joblist>
+  <job>
+    <description>job para exportar a github repo test</description>
+    <executionEnabled>true</executionEnabled>
+    <id>a332b128-b7c1-4436-b7e5-b1f6f38c439f</id>
+    <loglevel>INFO</loglevel>
+    <name>job2_export_repo</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>whoami</exec>
+      </command>
+    </sequence>
+    <uuid>a332b128-b7c1-4436-b7e5-b1f6f38c439f</uuid>
+  </job>
+</joblist>

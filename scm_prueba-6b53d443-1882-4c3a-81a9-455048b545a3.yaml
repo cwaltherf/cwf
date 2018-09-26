@@ -1,0 +1,16 @@
+- description: echo prueba_scm
+  executionEnabled: true
+  id: 6b53d443-1882-4c3a-81a9-455048b545a3
+  loglevel: INFO
+  name: scm_prueba
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: echo prueba_scm
+    - description: 2do paso para modificar job
+      exec: df -h
+    keepgoing: false
+    strategy: node-first
+  uuid: 6b53d443-1882-4c3a-81a9-455048b545a3
+
